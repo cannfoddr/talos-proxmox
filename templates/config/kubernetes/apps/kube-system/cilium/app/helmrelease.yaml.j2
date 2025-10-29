@@ -47,7 +47,9 @@ spec:
     gatewayAPI:
       enabled: true
     hubble:
-      enabled: false
+      enabled: true
+      relay:
+        enabled: true
     ipam:
       mode: kubernetes
     ipv4NativeRoutingCIDR: "#{ cluster_pod_cidr }#"
