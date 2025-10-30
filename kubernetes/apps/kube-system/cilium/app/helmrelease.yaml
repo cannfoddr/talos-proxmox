@@ -48,6 +48,9 @@ spec:
       enabled: true
       relay:
         enabled: true
+      ui:
+    # -- Whether to enable the Hubble UI.
+        enabled: true
     ipam:
       mode: kubernetes
     ipv4NativeRoutingCIDR: "10.128.0.0/16"
